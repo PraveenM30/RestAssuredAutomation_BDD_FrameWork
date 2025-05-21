@@ -20,8 +20,11 @@ public class Routes {
 
 	//Store module
 	
-	  //here u will create store module URL's
-	
+    public static String getStoreInventory_url=baseURL+"/store/inventory";	
+    public static String postStoreOrder_url=baseURL+"/store/order";	
+    public static String getOrder_url=baseURL+"/store/order/{orderId}";	
+    public static String deleteOrder_url=baseURL+"/store/order/{orderId}";	
+
 	
 	//Pet module
 
