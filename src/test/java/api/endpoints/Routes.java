@@ -11,6 +11,8 @@ public class Routes {
 	 */
 	
 	public static String baseURL="https://petstore.swagger.io/v2";
+	public static String FFbaseURL="https://app.fireflink.com";
+	
 	
 	//User module
 	public static String post_url=baseURL+"/user";
@@ -26,9 +28,11 @@ public class Routes {
     public static String deleteOrder_url=baseURL+"/store/order/{orderId}";	
 
 	
-	//Pet module
-
-	  //here u will create pet module URL's
+	//FireFlink module
+    public static String SignIn_url=FFbaseURL+"/appmanagement/optimize/v1/public/user/signin";	
+    public static String projectCreation_url=FFbaseURL+"/project/optimize/v1/projects/";	
+    public static String projectUpdation_URL=FFbaseURL+"/project/optimize/v1/projects/{projectId}";	
+    public static String deleteProject_url=FFbaseURL+"/project/optimize/v1/projects/{projectId}";	
 
 
 }
